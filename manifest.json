@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "burnz.notes",
+  "name": "Notes",
+  "version": "1.0.0",
+  "author": "burnz",
+  "description": "Markdown notes popup - list, search, create, edit, delete",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Notes",
+    "description": "Markdown notes popup",
+    "category": "Productivity",
+    "allowMultiple": false
+  }
+}
